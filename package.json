@@ -2,22 +2,23 @@
   "name": "bardia-wild-planet-admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Bardia Wild Planet Admin Portal",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.2.2",
-    "@strapi/plugin-users-permissions": "4.2.2",
     "@strapi/plugin-i18n": "4.2.2",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/strapi": "4.2.2",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Victor Patriciu"
   },
   "strapi": {
     "uuid": "da435ed0-6532-4880-8a30-95eea1cf573b"
