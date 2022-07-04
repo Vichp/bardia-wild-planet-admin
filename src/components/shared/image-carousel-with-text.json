@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_image_carousel_with_texts",
+  "info": {
+    "displayName": "ImageCarouselWithText",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ImageCarousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-carousel"
+    },
+    "subtitle": {
+      "type": "enumeration",
+      "enum": [
+        "This is the description"
+      ]
+    },
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "This is the title"
+      ]
+    }
+  }
+}

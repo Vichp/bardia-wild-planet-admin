@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_slices_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.logo-with-text"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-media"
+    },
+
+    "siteNav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-column-with-nav"
+    }
+  }
+}

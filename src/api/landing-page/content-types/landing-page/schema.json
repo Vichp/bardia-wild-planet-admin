@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-carousel-with-text"
+    },
+    "OurStorySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.column-with-text-and-image"
+    },
+    "ActivitiesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    },
+    "TestimonialsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.section"
+    }
+  }
+}

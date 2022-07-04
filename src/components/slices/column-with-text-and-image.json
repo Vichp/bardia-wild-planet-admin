@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slices_column_with_text_and_images",
+  "info": {
+    "displayName": "ColumnWithTextAndImage",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

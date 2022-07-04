@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "activities_pages",
+  "info": {
+    "singularName": "activities-page",
+    "pluralName": "activities-pages",
+    "displayName": "ActivitiesPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    },
+    "ActivititySection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.column-with-text-and-image"
+    },
+    "ActivityOffers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.features"
+    },
+    "OtherActivitiesHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    }
+  }
+}

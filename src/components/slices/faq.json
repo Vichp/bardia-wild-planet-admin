@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_slices_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.section"
+    }
+  }
+}

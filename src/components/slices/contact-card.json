@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_slices_contact_cards",
+  "info": {
+    "displayName": "ContactCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "string"
+    },
+    "openingHours": {
+      "type": "string"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-media"
+    }
+  }
+}

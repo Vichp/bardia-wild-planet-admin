@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "national_park_pages",
+  "info": {
+    "singularName": "national-park-page",
+    "pluralName": "national-park-pages",
+    "displayName": "NationalParkPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    },
+    "WhenToVisitSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.column-with-text-and-image"
+    },
+    "FloraFaunaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.section"
+    },
+    "Statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.statistics-card"
+    }
+  }
+}

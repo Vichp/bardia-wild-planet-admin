@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slices_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

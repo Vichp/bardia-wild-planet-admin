@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slices_our_staffs",
+  "info": {
+    "displayName": "OurStaff",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    },
+    "OurStorySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.section"
+    },
+    "OurStaffSectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.section"
+    },
+    "OurStaffMembers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.our-staff"
+    }
+  }
+}

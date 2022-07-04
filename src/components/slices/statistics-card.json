@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_statistics_cards",
+  "info": {
+    "displayName": "StatisticsCard",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "stats": {
+      "type": "biginteger"
+    }
+  }
+}

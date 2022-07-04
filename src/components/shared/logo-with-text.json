@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_logo_with_texts",
+  "info": {
+    "displayName": "LogoWithText",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.logo"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_footer_column_with_navs",
+  "info": {
+    "displayName": "ColumnWithTitleAndLinks",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columnTitle": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
