@@ -11,7 +11,7 @@
       "type": "media",
       "multiple": false
     },
-    "link": {
+    "Link": {
       "type": "component",
       "repeatable": false,
       "component": "shared.link"

@@ -2,19 +2,21 @@
   "collectionName": "components_slices_flora_fauna_cards",
   "info": {
     "displayName": "FloraFaunaCard",
-    "icon": "ambulance"
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Section": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section"
-    },
     "Statistics": {
       "type": "component",
       "repeatable": true,
       "component": "slices.statistics-card"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
     }
   }
 }
