@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "lodge_pages",
+  "info": {
+    "singularName": "lodge-page",
+    "pluralName": "lodge-pages",
+    "displayName": "LodgePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.hero"
+    },
+    "AboutLodgeSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.section"
+    },
+    "LodgeColumnWithImageSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.column-with-text-and-image"
+    },
+    "RoomsSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.section"
+    },
+    "LodgeRoomCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.lodge-room-components"
+    }
+  }
+}
