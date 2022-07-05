@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landing-page",
     "pluralName": "landing-pages",
-    "displayName": "LandingPage"
+    "displayName": "LandingPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,20 +17,20 @@
       "repeatable": false,
       "component": "shared.image-carousel-with-text"
     },
-    "OurStorySection": {
+    "OurStory": {
       "type": "component",
       "repeatable": false,
       "component": "slices.column-with-text-and-image"
     },
-    "ActivitiesSection": {
+    "Activities": {
       "type": "component",
       "repeatable": false,
       "component": "slices.hero"
     },
-    "TestimonialsSection": {
+    "Testimonials": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.section"
+      "component": "shared.section"
     }
   }
 }

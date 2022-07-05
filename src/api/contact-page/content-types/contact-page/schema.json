@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "ContactPage"
+    "displayName": "ContactPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,10 +17,10 @@
       "repeatable": false,
       "component": "slices.contact-card"
     },
-    "FindUsSection": {
+    "FindUs": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.section"
+      "component": "shared.section"
     },
     "FAQ": {
       "type": "component",

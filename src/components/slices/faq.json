@@ -9,10 +9,10 @@
     "title": {
       "type": "string"
     },
-    "sections": {
+    "Section": {
       "type": "component",
       "repeatable": true,
-      "component": "slices.section"
+      "component": "shared.section"
     }
   }
 }

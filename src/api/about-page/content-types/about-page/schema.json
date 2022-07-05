@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-page",
     "pluralName": "about-pages",
-    "displayName": "AboutPage"
+    "displayName": "AboutPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,20 +17,15 @@
       "repeatable": false,
       "component": "slices.hero"
     },
-    "OurStorySection": {
+    "OurStory": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.section"
+      "component": "shared.section"
     },
-    "OurStaffSectionTitle": {
+    "OurStaff": {
       "type": "component",
-      "repeatable": false,
-      "component": "slices.section"
-    },
-    "OurStaffMembers": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.our-staff"
+      "repeatable": true,
+      "component": "slices.our-staff-card"
     }
   }
 }

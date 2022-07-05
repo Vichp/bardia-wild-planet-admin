@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_slices_lodge_room_components",
+  "collectionName": "components_slices_lodge_room_card",
   "info": {
     "displayName": "LodgeRoomCard",
     "icon": "angry",
@@ -7,21 +7,19 @@
   },
   "options": {},
   "attributes": {
-    "Avatar": {
+    "avatar": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
-    "RoomTitle": {
+    "roomTitle": {
       "type": "string"
     },
-    "RoomDescription": {
+    "roomDescription": {
       "type": "text"
     },
-    "Badge": {
+    "badge": {
       "type": "string"
     },
     "Button": {

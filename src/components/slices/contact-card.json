@@ -24,7 +24,7 @@
     "openingHours": {
       "type": "string"
     },
-    "socialMedia": {
+    "SocialMedia": {
       "type": "component",
       "repeatable": true,
       "component": "shared.social-media"

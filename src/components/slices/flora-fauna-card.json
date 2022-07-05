@@ -1,20 +1,20 @@
 {
-  "collectionName": "components_slices_features",
+  "collectionName": "components_slices_flora_fauna_cards",
   "info": {
-    "displayName": "Features",
-    "icon": "align-left"
+    "displayName": "FloraFaunaCard",
+    "icon": "ambulance"
   },
   "options": {},
   "attributes": {
-    "FeaturesSection": {
+    "Section": {
       "type": "component",
       "repeatable": false,
       "component": "shared.section"
     },
-    "FeatureList": {
+    "Statistics": {
       "type": "component",
       "repeatable": true,
-      "component": "slices.column-with-text-and-image"
+      "component": "slices.statistics-card"
     }
   }
 }

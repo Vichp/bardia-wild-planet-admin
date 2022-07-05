@@ -4,7 +4,8 @@
   "info": {
     "singularName": "activities-page",
     "pluralName": "activities-pages",
-    "displayName": "ActivitiesPage"
+    "displayName": "ActivitiesPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +17,7 @@
       "repeatable": false,
       "component": "slices.hero"
     },
-    "ActivititySection": {
+    "Activity": {
       "type": "component",
       "repeatable": true,
       "component": "slices.column-with-text-and-image"

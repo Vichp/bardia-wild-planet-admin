@@ -17,20 +17,15 @@
       "repeatable": false,
       "component": "slices.hero"
     },
-    "WhenToVisitSection": {
+    "WhenToVisit": {
       "type": "component",
       "repeatable": false,
       "component": "slices.column-with-text-and-image"
     },
-    "FloraFaunaSection": {
+    "FloraFauna": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.section"
-    },
-    "Statistics": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.statistics-card"
+      "component": "slices.flora-fauna-card"
     }
   }
 }

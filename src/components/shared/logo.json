@@ -1,18 +1,19 @@
 {
   "collectionName": "components_shared_logos",
   "info": {
-    "displayName": "logo",
-    "icon": "icons"
+    "displayName": "Logo",
+    "icon": "icons",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

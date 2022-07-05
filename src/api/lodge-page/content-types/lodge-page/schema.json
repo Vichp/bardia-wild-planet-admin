@@ -17,25 +17,20 @@
       "repeatable": false,
       "component": "slices.hero"
     },
-    "AboutLodgeSection": {
+    "AboutLodge": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.section"
+      "component": "shared.section"
     },
-    "LodgeColumnWithImageSection": {
+    "LodgeDescription": {
       "type": "component",
       "repeatable": false,
       "component": "slices.column-with-text-and-image"
     },
-    "RoomsSection": {
+    "LodgeRooms": {
       "type": "component",
-      "repeatable": true,
-      "component": "slices.section"
-    },
-    "LodgeRoomCard": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.lodge-room-components"
+      "repeatable": false,
+      "component": "slices.lodge-room-card"
     }
   }
 }

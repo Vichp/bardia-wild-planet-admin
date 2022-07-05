@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "footerLogo": {
+    "FooterLogo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.logo-with-text"
@@ -15,13 +15,13 @@
     "copyright": {
       "type": "string"
     },
-    "socialMedia": {
+    "SocialMedia": {
       "type": "component",
       "repeatable": true,
       "component": "shared.social-media"
     },
 
-    "siteNav": {
+    "SiteNav": {
       "type": "component",
       "repeatable": true,
       "component": "shared.footer-column-with-nav"

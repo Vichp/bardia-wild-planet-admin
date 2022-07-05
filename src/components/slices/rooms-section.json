@@ -1,20 +1,20 @@
 {
-  "collectionName": "components_slices_features",
+  "collectionName": "components_slices_rooms_sections",
   "info": {
-    "displayName": "Features",
-    "icon": "align-left"
+    "displayName": "RoomsSection",
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
-    "FeaturesSection": {
+    "Section": {
       "type": "component",
       "repeatable": false,
       "component": "shared.section"
     },
-    "FeatureList": {
+    "RoomCard": {
       "type": "component",
       "repeatable": true,
-      "component": "slices.column-with-text-and-image"
+      "component": "slices.lodge-room-card"
     }
   }
 }

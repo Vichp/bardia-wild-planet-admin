@@ -1,7 +1,7 @@
 {
   "collectionName": "components_slices_heroes",
   "info": {
-    "displayName": "hero",
+    "displayName": "Hero",
     "icon": "align-justify"
   },
   "options": {},
@@ -17,7 +17,7 @@
     "title": {
       "type": "string"
     },
-    "button": {
+    "Button": {
       "type": "component",
       "repeatable": false,
       "component": "shared.button"
