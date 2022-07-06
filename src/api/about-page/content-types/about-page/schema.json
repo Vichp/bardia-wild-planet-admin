@@ -24,7 +24,7 @@
     },
     "OurStaff": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "slices.our-staff-card"
     }
   }

@@ -27,10 +27,15 @@
       "repeatable": false,
       "component": "slices.column-with-text-and-image"
     },
-    "LodgeRooms": {
+    "CTA": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.lodge-room-card"
+      "component": "slices.cta"
+    },
+    "LodgeRoomsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.lodge-rooms-section"
     }
   }
 }

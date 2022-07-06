@@ -2,19 +2,21 @@
   "collectionName": "components_slices_our_staff_cards",
   "info": {
     "displayName": "OurStaffCard",
-    "icon": "american-sign-language-interpreting"
+    "icon": "american-sign-language-interpreting",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Section": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section"
-    },
     "StaffMember": {
       "type": "component",
       "repeatable": true,
       "component": "slices.our-staff"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
     }
   }
 }

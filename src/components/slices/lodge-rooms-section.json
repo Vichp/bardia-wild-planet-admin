@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_slices_lodge_rooms_sections",
+  "info": {
+    "displayName": "LodgeRoomsSection",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "RoomCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.lodge-room-card"
+    }
+  }
+}
