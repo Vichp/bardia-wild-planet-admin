@@ -8,11 +8,14 @@
   "options": {},
   "attributes": {
     "logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.logo"
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "text": {
+    "motto": {
       "type": "string"
     }
   }

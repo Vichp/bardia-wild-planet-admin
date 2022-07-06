@@ -2,17 +2,21 @@
   "collectionName": "components_slices_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
-      "multiple": false
-    },
-    "text": {
-      "type": "richtext"
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "title": {
       "type": "string"
@@ -21,6 +25,9 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.button"
+    },
+    "text": {
+      "type": "text"
     }
   }
 }

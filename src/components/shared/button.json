@@ -7,10 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "Link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
+    "link": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
     }
   }
 }

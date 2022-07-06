@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_headers",
+  "info": {
+    "singularName": "navigation-header",
+    "pluralName": "navigation-headers",
+    "displayName": "NavigationMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavigationMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.navigation"
+    }
+  }
+}

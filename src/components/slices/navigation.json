@@ -7,15 +7,15 @@
   },
   "options": {},
   "attributes": {
-    "Link": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.link"
-    },
     "Logo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.logo"
+    },
+    "MenuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_pages",
+  "info": {
+    "singularName": "footer-page",
+    "pluralName": "footer-pages",
+    "displayName": "FooterPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.footer"
+    }
+  }
+}
