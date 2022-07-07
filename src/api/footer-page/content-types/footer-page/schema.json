@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer-page",
     "pluralName": "footer-pages",
-    "displayName": "FooterPage"
+    "displayName": "FooterPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

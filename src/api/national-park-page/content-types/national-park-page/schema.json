@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": false,
       "component": "slices.flora-fauna-card"
+    },
+    "BardiaHistory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
     }
   }
 }

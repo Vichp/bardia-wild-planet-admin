@@ -10,7 +10,7 @@
     "columnTitle": {
       "type": "string"
     },
-    "link": {
+    "Link": {
       "type": "component",
       "repeatable": true,
       "component": "shared.link"
