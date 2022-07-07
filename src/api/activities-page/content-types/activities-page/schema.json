@@ -22,7 +22,7 @@
       "repeatable": true,
       "component": "slices.column-with-text-and-image"
     },
-    "ActivityOffers": {
+    "FeaturedActivities": {
       "type": "component",
       "repeatable": false,
       "component": "slices.features"

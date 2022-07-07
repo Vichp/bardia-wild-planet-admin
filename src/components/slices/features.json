@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "FeatureList": {
+    "FeaturedActivity": {
       "type": "component",
       "repeatable": true,
       "component": "slices.column-with-text-and-image"
