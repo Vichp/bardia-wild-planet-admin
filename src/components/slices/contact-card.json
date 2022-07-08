@@ -18,6 +18,9 @@
     "phoneNumber": {
       "type": "biginteger"
     },
+    "whatsappNumber": {
+      "type": "biginteger"
+    },
     "address": {
       "type": "string"
     },
