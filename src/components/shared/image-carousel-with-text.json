@@ -12,17 +12,11 @@
       "repeatable": false,
       "component": "shared.image-carousel"
     },
-    "subtitle": {
-      "type": "enumeration",
-      "enum": [
-        "This is the description"
-      ]
-    },
     "title": {
-      "type": "enumeration",
-      "enum": [
-        "This is the title"
-      ]
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
     }
   }
 }
