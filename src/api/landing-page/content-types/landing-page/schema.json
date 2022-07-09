@@ -26,11 +26,6 @@
       "type": "component",
       "repeatable": false,
       "component": "slices.hero"
-    },
-    "Testimonials": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section"
     }
   }
 }
