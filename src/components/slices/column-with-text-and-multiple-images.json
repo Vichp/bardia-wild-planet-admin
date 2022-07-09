@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_shared_image_carousel_with_texts",
+  "collectionName": "components_slices_column_with_text_and_multiple_images",
   "info": {
-    "displayName": "ImageCarouselWithText",
-    "icon": "image",
-    "description": ""
+    "displayName": "ColumnWithTextAndMultipleImages",
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "subtitle": {
+    "text": {
       "type": "text"
     },
     "images": {
@@ -19,7 +18,8 @@
         "videos"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": true
     }
   }
 }

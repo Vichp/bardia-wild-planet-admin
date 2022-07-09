@@ -10,17 +10,19 @@
     "text": {
       "type": "richtext"
     },
+    "title": {
+      "type": "string"
+    },
     "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
-        "videos"
+        "files",
+        "videos",
+        "audios"
       ]
-    },
-    "title": {
-      "type": "string"
     }
   }
 }

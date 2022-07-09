@@ -22,11 +22,6 @@
       "repeatable": false,
       "component": "shared.section"
     },
-    "LodgeDescription": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.column-with-text-and-image"
-    },
     "CallToActionCard": {
       "type": "component",
       "repeatable": false,
@@ -36,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "slices.lodge-rooms-section"
+    },
+    "LodgeDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.column-with-text-and-multiple-images"
     }
   }
 }
